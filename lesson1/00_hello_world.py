@@ -69,3 +69,28 @@ obj1 = bytes('String1', 'utf-8', 'errors obj1')
 obj2 = bytes('String2', 'utf-8')
 print(type(obj1))
 print(obj1)
+
+#
+s1 = ' strin-1 '
+print('Texts [%s]' % s1)
+mm1 = '-PYTHON-'
+mm2 = 'TEXT-2'
+x =  'big %s text in my editor %s'
+print(x % (mm1, mm2))
+
+#formater
+print('------- formatter')
+formatter = '%r %r %r %r'
+print(formatter % (1, 2, 3, 4))
+print(formatter % ('one', 'two', 'three', 'four'))
+
+apple_string = "I have {}."
+print(apple_string.format("5 apples"))
+
+
+# task 10
+print('How old are you?')
+age = input()
+print('How tall are you?')
+tall = input()
+print('So, you\'re %r old, %r tall' % (age, tall))
